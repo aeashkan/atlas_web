@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Yekan-Bakh-medium;
+    src: url(../fonts/Yekan-Bakh-Medium.597c8017.woff);
+}
+*,html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

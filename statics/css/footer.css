@@ -1,0 +1,180 @@
+#footer{
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    background-color: #f4f4f4
+}
+.first-line-news {
+    position: relative;
+    width: 96%;
+    height:100px;
+}
+.news-login{
+    position: absolute;
+    left: 24px;
+    padding: 4px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    top: 39px;
+}
+.email-news {
+    position: absolute;
+    left: 25px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 0px auto;
+    padding: 5px 15px;
+    width: 40%;
+    background-color: #f4f4f4;
+    outline: none;
+    
+}
+.btn-news {
+    position: absolute;
+    height: 14px;
+    top: 41px;
+    left: 41.2%;
+}
+h4.news {
+    position: relative;
+    top: 30px;
+    color: #676666;
+}
+p.news-note {
+    position: relative;
+    top: 32%;
+    color: grey;
+}
+section.second-line {
+    width: 100%;
+    height: 125px;
+    position: relative;
+}
+nav.contact-bars {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    font-size: smaller;
+}
+li.main-contacts {
+    display: inline-block;
+    padding: 0px 8px;
+}
+a.link-contacts {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+h5.menu-contacts {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+svg#Capa_1 {
+    position: absolute;
+    left: 8%;
+    top: 15px;
+}
+figure.second-line-image {
+    height: auto;
+}
+img.logo-one-second-line {
+    position: absolute;
+    left: 38%;
+    top: 10px;
+}
+img.logo-line-two {
+    width: 110px;
+    position: absolute;
+    left: 50%;
+    top: 5px;
+}
+h4.contact-ways {
+    position: absolute;
+    top: 30px;
+    color: rgb(161, 161, 161);
+    right: 30px;
+}
+p.tel-email {
+    position: absolute;
+    top: 55px;
+    right: 25px;
+    color: #595858;
+    font-size: smaller;
+}
+svg.d-inline-block {
+    position: absolute;
+    top: 30px;
+    right: 11px;
+}
+section.last-line {
+    position: relative;
+    width: 100%;
+    height: 76px;
+}
+h5.address-line {
+    position: absolute;
+    top: 0px;
+    right: 35px;
+    color: #949191;
+    font-size: large;
+}
+p.address-guide {
+    position: absolute;
+    top: 32px;
+    right: 23px;
+    font-size: smaller;
+}
+p.privacy-policy {
+    position: absolute;
+    left: 115px;
+    top: 33px;
+    color: grey;
+    font-size: 15px;
+}
+svg.d-sm-inline-block.d-none {
+    position: absolute;
+    left: 46%;
+    top: 30px;
+}
+svg.d-inline-block4 {
+    position: absolute;
+    right: 15px;
+    top: 2px;
+}
+@media only screen and (max-width:810px) {
+    #footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-one-second-line{
+        display: none;
+    }
+    .logo-line-two {
+        display: none;
+    }
+
+    .main-contacts {
+        position: absolute;
+        bottom: 0;
+    }
+    .contact-bars{
+        display: none;
+    }
+    svg#Capa_1{
+        display:none;
+    }
+
+    .menu-contacts {
+        display: none;
+    }
+    section.last-line{
+        display: flex;
+    }
+    svg.d-sm-inline-block.d-none{
+        display: none;
+    }
+
+}
